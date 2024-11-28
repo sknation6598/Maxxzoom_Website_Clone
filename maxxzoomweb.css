@@ -1,0 +1,134 @@
+        *{
+            font-family: "Montserrat";
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            margin: auto;
+            background-color:cornsilk;
+        }
+
+
+        .wrap {
+            background-color: black;
+            border-radius: 5px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 200px;
+            margin-left: 200px;
+            padding: 10px;
+        }
+
+        .image {
+            background-image: url('photo-1515879218367-8466d910aaa4.jpeg');
+            background-size: cover;
+            padding: 50px;
+            color: white;
+            text-align: end;
+            padding-right: 200px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;    
+            padding-left: 200px; 
+            padding-right: 200px;
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .section {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 200px;
+            max-width: 24%;
+        }
+
+        .section1 {
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1 1 200px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #007BFF;
+        }
+
+
+
+        ul li {
+            margin-bottom: 5px;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color:black;
+            transition: color 0.3s;
+        }
+        
+        ul li a:hover {
+            color: #0056b3;
+        }
+
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
